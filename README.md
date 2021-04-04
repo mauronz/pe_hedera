@@ -2,6 +2,14 @@
 
 pe_hedera is a Python 3 library that allows to execute a Windows executable and define Python hooks which are executed before and/or after function calls.
 
+## Installation
+
+Get the Python 3 package [here](pe_hedera.zip). From the pe_hedera directory (where setup.py is)
+
+```
+python -m pip install .
+```
+
 ## Session
 A session represents the context of execution of the target process. To set up a session,  create a object **HederaSession** with the target command line as argument:
 
