@@ -98,7 +98,7 @@ Available commands:
  - writemem <address> <data>: write data in the memory of the target process,
                               <data> has the following formats
                               - string between double-quotes (null byte is automatically appended)
-                              - hex rappresentation, e.g. 13f860bd for the buffer \\x13\\xf8\\x60\\xbd
+                              - hex rappresentation, e.g. 13f860bd for the buffer \x13\xf8\x60\xbd
  - setparam $param_num <value>: ovverride the value of a parmeter (only if override_params is true)
  - continue: resume execution
  - stop: terminate the target process and exit
