@@ -203,7 +203,7 @@ class HederaSession:
                     process_path = msg.args[2].decode("utf-16le")
                     if session.switch_hook:
                         session.switch_hook(process_path, process_pid, process_tid)
-                    print("New process: {:} (pid {:d})")
+                    print("New process: {:} (pid {:d})".format(process_path, process_pid))
                     if session.auto_switch:
                         resp_code = CODE_OK
                     else:

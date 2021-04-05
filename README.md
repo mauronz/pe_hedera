@@ -15,6 +15,7 @@ A session represents the context of execution of the target process. To set up a
 
 ```python
 session = HederaSession(["notepad.exe", "test.txt"])
+session.initialize()
 ```
 
 At this point the process is already created, but it is suspended. In order to start the execution, simply call
